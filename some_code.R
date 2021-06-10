@@ -6,7 +6,7 @@ library(tidyverse)
 library(ggplot2)
 
 df <- mtcars %>%
-  filter(cyl > 1)
+  filter(cyl > 6)
 
 ggplot(df,
        aes(x = mpg,
